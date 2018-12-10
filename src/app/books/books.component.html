@@ -1,0 +1,133 @@
+<div class="row" style="margin: 0">
+  <div class="col-md-2 no_padding nav-side">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+         aria-controls="v-pills-home" aria-selected="true">ADD BOOK</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+         aria-controls="v-pills-profile" aria-selected="false">VIEW AND OPTIONS</a>
+    </div>
+  </div>
+  <div class="col-md-10 nav-side-container">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+        <div class="card border-primary-blue  text-center border_radius_zero">
+          <div class="card-header">
+            ADD BOOK
+          </div>
+          <div class="card-body">
+
+            <span class="badge badge-danger">All fields are required</span>
+            <div class="row">
+              <div class="col-md-4">
+                <input class="text-input text-input" placeholder="Book Name">
+              </div>
+
+              <div class="col-md-4">
+                <input class="text-input text-input" placeholder="Enter ISBN">
+              </div>
+
+              <div class="col-md-4">
+                <input class="text-input text-input" placeholder="Enter Quantity">
+              </div>
+
+              <div class="col-md-4 offset-md-4">
+                <hr/>
+                <button class="basic-button" value="">Enter Book</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+        <div class="card border-primary-blue  text-center border_radius_zero">
+          <div class="card-header">
+            VIEW AND OPTIONS
+          </div>
+          <div class="card-body">
+
+
+            <div class="row">
+              <div class="col-md-12">
+
+                <table class="table custom-table">
+                  <thead>
+                  <tr>
+                    <th>No.</th>
+                    <th>Book Name</th>
+                    <th>Book ISBN</th>
+                    <th>Quantity</th>
+                    <th>Options</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Test Book Name</td>
+                    <td>ISBN00000</td>
+                    <td>70</td>
+                    <td>
+                      <a class="link_courser badge badge-info custom-badge"  data-toggle="modal" data-target="#exampleModalLong">Edit</a>
+                      <a> | </a>
+                      <a (click)="delete()" class="link_courser badge badge-warning custom-badge" >Delete</a>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <div class="card border-primary-blue  text-center border_radius_zero">
+            <div class="card-header">
+              EDIT MEMBER
+            </div>
+            <div class="card-body">
+
+              <span class="badge badge-danger">All fields are required</span>
+              <div class="row">
+                <div class="col-md-4">
+                  <input class="text-input text-input" placeholder="Enter Full Name">
+                </div>
+
+                <div class="col-md-4">
+                  <input class="text-input text-input" placeholder="Enter NIC">
+                </div>
+
+                <div class="col-md-4">
+                  <input class="text-input text-input" placeholder="Enter Contact Number">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea placeholder="Enter Address" class=" text-area"></textarea>
+                </div>
+
+                <div class="col-md-4 offset-md-4">
+                  <hr/>
+                  <button (click)="update()" class="basic-button" value="">UPDATE Member</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

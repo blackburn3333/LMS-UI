@@ -1,0 +1,29 @@
+.nav-side .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: $font-light;
+  background-color: $light-blue-dark;
+  border-radius: 0;
+}
+
+.nav-side .nav-link:hover{
+  background-color: $hover-color-nav;
+  border-radius: 0;
+  color: $font-light;
+}
+
+.nav-side{
+  color: $font-light;
+  background-color: #40b1db;
+  height: 92.3vh;
+  font-size: 0.8em;
+  font-family: Roboto-Light, sans-serif;
+}
+
+.nav-side a{
+  color: $font-light;
+  text-transform: uppercase;
+}
+
+.nav-side-container{
+  height: 92.3vh;
+  padding: 50px;
+}

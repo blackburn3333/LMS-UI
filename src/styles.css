@@ -1,0 +1,139 @@
+/* You can add global styles to this file, and also import other style files */
+.no_padding {
+  padding: 0; }
+
+.border_radius_zero {
+  border-radius: 0; }
+
+.border-primary-blue {
+  border-color: #209ccc; }
+
+.padding_fifty {
+  padding: 50px; }
+
+.custom-table {
+  font-size: 0.7em; }
+
+.link_courser:hover {
+  cursor: pointer; }
+
+.custom-badge {
+  font-size: 1em; }
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("assets/fonts/Roboto-Thin.ttf") format("truetype"); }
+@font-face {
+  font-family: Roboto-Light;
+  src: url("assets/fonts/Roboto-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("assets/fonts/Roboto-Medium.ttf") format("truetype"); }
+.nav-side .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #FFFFFF;
+  background-color: #209ccc;
+  border-radius: 0; }
+
+.nav-side .nav-link:hover {
+  background-color: #35a9d6;
+  border-radius: 0;
+  color: #FFFFFF; }
+
+.nav-side {
+  color: #FFFFFF;
+  background-color: #40b1db;
+  height: 92.3vh;
+  font-size: 0.8em;
+  font-family: Roboto-Light, sans-serif; }
+
+.nav-side a {
+  color: #FFFFFF;
+  text-transform: uppercase; }
+
+.nav-side-container {
+  height: 92.3vh;
+  padding: 50px; }
+
+.text-input {
+  width: 100%;
+  font-size: 0.9em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: solid #d1d1d1 1px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em; }
+
+.text-input:hover {
+  border: solid #2979ff 1px; }
+
+.text-input-blue {
+  border: none;
+  border-bottom: 1px #2979ff solid; }
+
+.text-input-success {
+  border: none;
+  border-bottom: 1px #00b503 solid; }
+
+.text-input-error {
+  border: none;
+  border-bottom: 1px #f50057 solid; }
+
+.text-input-error-full {
+  border: solid #f50057 1px; }
+
+.text-input-success-full {
+  border: solid #00b503 1px; }
+
+.text-area {
+  resize: none;
+  width: 100%;
+  font-size: 0.9em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: solid #d1d1d1 1px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+.text-area:hover {
+  border: solid #2979ff 1px; }
+
+.text-input:focus {
+  outline: none; }
+
+.text-area:focus {
+  outline: none; }
+
+.basic-button {
+  width: 100%;
+  border: none;
+  font-size: 0.9em;
+  padding: 0.5em;
+  color: #FFFFFF;
+  background-color: #2979ff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 0.5em; }
+
+.basic-button:hover {
+  background-color: #1c54b2;
+  color: #FFFFFF;
+  cursor: pointer; }
+
+.material-icon-btns {
+  background-color: transparent;
+  border: none;
+  outline: none; }
+
+.material-icon-btns:hover {
+  cursor: pointer;
+  outline: none; }
+
+.material-icon-btns:active {
+  outline: none; }
+
+body {
+  font-family: "Roboto-Light", sans-serif; }
+
+/*# sourceMappingURL=styles.css.map */
